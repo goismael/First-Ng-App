@@ -1,0 +1,15 @@
+<div *ngIf="school">
+    <h2> {{school.name | uppercase}} Details</h2>
+    <div><span>name: </span>{{school.name}}</div>
+    <div>
+        <label>name:
+    <input [(ngModel)]="school.name" placeholder="name"/>
+  </label>
+        <label>budget:
+    <input [(ngModel)]="school.budget" placeholder="budget"/>
+  </label>
+        <label>director:
+    <input [(ngModel)]="school.director" placeholder="director"/>
+  </label>
+    </div>
+</div>

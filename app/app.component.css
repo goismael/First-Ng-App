@@ -1,0 +1,13 @@
+                                                                                                                    .red {
+                                                                                                                        background-color: yellow;
+                                                                                                                        font-family: Arial, Helvetica, sans-serif;
+                                                                                                                        color: blue;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .ismael {
+                                                                                                                        background-color: green;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .youtube {
+                                                                                                                        background-image: repeating-radial-gradient(red 1, yellow 10%, green 15%);
+                                                                                                                    }
